@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Raskbind Foundation | Checkout</title>
+  <meta name="description" content="Confirm your donation to Raskbind Foundation." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="Images/Green bg logo.jpg" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="Images/logo1.png" alt="Raskbind Foundation" />
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="plantation.html">Plantation</a></li>
+          <li><a href="meals.html">Meal Distribution</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-primary donate-cta" href="donate.html">Donate</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="container section checkout">
+      <div class="checkout-panel animate-in">
+        <div class="checkout-header">
+          <h1>Confirm your donation</h1>
+          <div class="secure-badges" aria-label="Security badges">
+            <span class="badge">🔒 256-bit SSL</span>
+            <span class="badge">✅ PCI-DSS Ready</span>
+          </div>
+        </div>
+        <div class="summary">
+          <div class="summary-row"><span>Cause</span><strong id="summaryCause">—</strong></div>
+          <div class="summary-row"><span>Amount</span><strong id="summaryAmount">—</strong></div>
+          <div class="summary-row"><span>Name</span><strong id="summaryName">—</strong></div>
+          <div class="summary-row"><span>Email</span><strong id="summaryEmail">—</strong></div>
+        </div>
+
+        <div class="payment">
+          <h2>Pay via UPI</h2>
+          <div class="upi-box">
+            <img src="Images/QR.jpg" alt="Google Pay QR code" loading="lazy" />
+            <p class="muted">Scan with any UPI app to pay. This is a static demo.</p>
+            <div class="transaction-id-input">
+              <label for="transactionId">UPI Transaction ID:</label>
+              <input type="text" id="transactionId" placeholder="Enter transaction ID" />
+              <p id="validationMessage" class="message"></p>
+            </div>
+          </div>
+          <div class="pay-actions">
+            <button id="confirmDonationBtn" class="btn btn-primary">Confirm Donation</button>
+            <a class="btn btn-outline" href="donate.html">Edit details</a>
+          </div>
+        </div>
+        <p class="fine-print">By proceeding, you agree to our terms and acknowledge that this is a static demonstration.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="Images/logo2.png" alt="Raskbind Foundation" />
+        <p>Thank you for supporting our mission.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="plantation.html">Plantation</a></li>
+          <li><a href="meals.html">Meal Distribution</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <address>
+          Bengali Colony Bettiah 845438, Bihar India<br />
+          Email: <a href="mailto:raskbindfoundation@gmail.com">raskbindfoundation@gmail.com</a>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <img src="Images/White%20bg%20logo.png" alt="Raskbind Foundation" width="32" height="32" />
+        <p>© <span id="year"></span> Raskbind Foundation.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html> 
