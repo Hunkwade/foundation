@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // In a real application, you'd send this to a backend for verification
 
         setTimeout(async () => {
-          const webAppUrl = 'https://script.google.com/macros/s/AKfycbzPdg7SIGFP4HM8uRoq9jBikIUerheJvghLK5grzWUwA3NFLakWJJ1xATRRlAdGsqIm/exec'; // *** REPLACE THIS WITH YOUR DEPLOYED GOOGLE APPS SCRIPT WEB APP URL ***
+          const webAppUrl = 'https://script.google.com/macros/s/AKfycbx_p9OhGfE0i5DJUGcA7AVTLH_A9rtWmfuoc8xZ8CYnK-drThPm3jy18g8_jtR-ptXX/exec'; // *** REPLACE THIS WITH YOUR DEPLOYED GOOGLE APPS SCRIPT WEB APP URL ***
 
           const donationData = {
             cause: document.getElementById('summaryCause').textContent,
